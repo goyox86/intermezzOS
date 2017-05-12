@@ -1,0 +1,13 @@
+[package]
+name = "intermezzos"
+version = "0.1.0"
+authors = ["Jose Narvaez <goyox86@gmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+
